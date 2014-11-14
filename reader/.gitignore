@@ -10,4 +10,5 @@ mappings/
 READY/
 .classpath
 .settings
+*.so
 *~
