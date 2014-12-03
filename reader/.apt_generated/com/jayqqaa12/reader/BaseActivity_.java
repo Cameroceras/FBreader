@@ -67,10 +67,10 @@ public final class BaseActivity_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        iv_head_right = ((ImageView) hasViews.findViewById(id.iv_head_right));
-        iv_head_left = ((ImageView) hasViews.findViewById(id.iv_head_left));
         tv_head = ((TextView) hasViews.findViewById(id.tv_head));
+        iv_head_left = ((ImageView) hasViews.findViewById(id.iv_head_left));
         tv_head_logo = ((TextView) hasViews.findViewById(id.tv_head_logo));
+        iv_head_right = ((ImageView) hasViews.findViewById(id.iv_head_right));
         {
             View view = hasViews.findViewById(id.iv_head_left);
             if (view!= null) {
